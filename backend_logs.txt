@@ -1,0 +1,24 @@
+time="2026-02-26T21:58:15+05:30" level=warning msg="The \"SUPABASE_URL\" variable is not set. Defaulting to a blank string."
+time="2026-02-26T21:58:15+05:30" level=warning msg="The \"SUPABASE_SERVICE_ROLE_KEY\" variable is not set. Defaulting to a blank string."
+time="2026-02-26T21:58:15+05:30" level=warning msg="The \"OPENAI_API_KEY\" variable is not set. Defaulting to a blank string."
+time="2026-02-26T21:58:15+05:30" level=warning msg="The \"SECRET_KEY\" variable is not set. Defaulting to a blank string."
+time="2026-02-26T21:58:15+05:30" level=warning msg="/home/prudvee-kumar-y/projects/GruhaAlankar/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+backend-1  | [2026-02-26 16:22:39 +0000] [1] [INFO] Starting gunicorn 21.2.0
+backend-1  | [2026-02-26 16:22:39 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+backend-1  | [2026-02-26 16:22:39 +0000] [1] [INFO] Using worker: sync
+backend-1  | [2026-02-26 16:22:39 +0000] [7] [INFO] Booting worker with pid: 7
+backend-1  | [2026-02-26 16:22:39 +0000] [8] [INFO] Booting worker with pid: 8
+backend-1  | [2026-02-26 16:22:39 +0000] [9] [INFO] Booting worker with pid: 9
+backend-1  | [2026-02-26 16:22:39 +0000] [10] [INFO] Booting worker with pid: 10
+backend-1  | 2026-02-26 16:22:39,763 - services.supabase_service - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,764 - app - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,792 - app - INFO - Flask application created successfully
+backend-1  | 2026-02-26 16:22:39,811 - services.supabase_service - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,811 - app - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,830 - services.supabase_service - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,830 - app - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,841 - app - INFO - Flask application created successfully
+backend-1  | 2026-02-26 16:22:39,852 - app - INFO - Flask application created successfully
+backend-1  | 2026-02-26 16:22:39,969 - services.supabase_service - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,969 - app - INFO - Supabase initialized successfully
+backend-1  | 2026-02-26 16:22:39,987 - app - INFO - Flask application created successfully
