@@ -1,34 +1,20 @@
-version: '3.8'
-
 services:
-  backend:
+  app:
     build:
-      context: ./backend
+      context: .
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
+    env_file:
+      - ./backend/.env
     environment:
       - FLASK_ENV=production
-      - SUPABASE_URL=${SUPABASE_URL}
-      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - SECRET_KEY=${SECRET_KEY}
-      - ALLOWED_ORIGINS=http://localhost:3000
+      - ALLOWED_ORIGINS=*
     volumes:
-      - backend-uploads:/app/uploads
-    restart: unless-stopped
-
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:80"
-    environment:
-      - VITE_API_URL=http://localhost:5000
-    depends_on:
-      - backend
+      - app-uploads:/app/uploads
+      - app-models:/app/static/models
     restart: unless-stopped
 
 volumes:
-  backend-uploads:
+  app-uploads:
+  app-models:

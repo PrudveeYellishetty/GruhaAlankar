@@ -7,34 +7,27 @@ load_dotenv()
 
 class Config:
     """Application configuration."""
-    
+
     # Flask
     SECRET_KEY = os.getenv('SECRET_KEY', 'dev-secret-key-change-in-production')
     DEBUG = os.getenv('FLASK_DEBUG', 'True') == 'True'
-    
-    # Supabase
-    SUPABASE_URL = os.getenv('SUPABASE_URL')
-    SUPABASE_SERVICE_ROLE_KEY = os.getenv('SUPABASE_SERVICE_ROLE_KEY')
-    
+
     # AI APIs
     OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
     GOOGLE_CLOUD_PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT_ID')
     GOOGLE_APPLICATION_CREDENTIALS = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
-    
+
     # CORS
-    ALLOWED_ORIGINS = os.getenv('ALLOWED_ORIGINS', 'http://localhost:3000').split(',')
-    
+    ALLOWED_ORIGINS = os.getenv('ALLOWED_ORIGINS', '*').split(',')
+
     # Upload settings
-    MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max upload
+    MAX_CONTENT_LENGTH = 50 * 1024 * 1024  # 50MB max upload
     UPLOAD_FOLDER = 'uploads'
-    ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'webp'}
-    
-    # Supabase Storage Buckets
-    STORAGE_BUCKET_MODELS = 'models'
-    STORAGE_BUCKET_THUMBNAILS = 'thumbnails'
-    STORAGE_BUCKET_UPLOADS = 'uploads'
-    STORAGE_BUCKET_REDESIGNS = 'redesigns'
-    
+    ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'webp', 'glb', 'gltf'}
+
+    # Assets repo
+    ASSETS_REPO = os.getenv('ASSETS_REPO', 'https://github.com/PrudveeYellishetty/Assets.git')
+
     @staticmethod
     def allowed_file(filename):
         """Check if file extension is allowed."""

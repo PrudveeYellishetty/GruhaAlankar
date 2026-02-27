@@ -24,9 +24,11 @@
   align-items: start;
 }
 
-.detail-image {
+/* 3D Model Viewer Container */
+.model-viewer-container {
   width: 100%;
-  background-color: var(--color-bg-primary);
+  height: 500px;
+  background-color: #f0f0f0;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
@@ -34,10 +36,64 @@
   top: 100px;
 }
 
-.detail-image img {
-  width: 100%;
-  height: auto;
+/* AR launch button (appears on supported devices) */
+.ar-button {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+  transition: all 0.3s ease;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.ar-button:hover {
+  transform: translateX(-50%) scale(1.05);
+  box-shadow: 0 6px 28px rgba(99, 102, 241, 0.6);
+}
+
+.ar-button:active {
+  transform: translateX(-50%) scale(0.98);
+}
+
+/* Model loading progress bar */
+.model-progress-bar {
   display: block;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+}
+
+.model-progress-bar > .update-bar {
+  background-color: #6366f1;
+  width: 0%;
+  height: 100%;
+  transition: width 0.3s;
+}
+
+/* AR prompt overlay */
+#ar-prompt {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  transform: translateX(-50%);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }
 
 .detail-info {
@@ -159,8 +215,9 @@
     gap: var(--spacing-xl);
   }
   
-  .detail-image {
+  .model-viewer-container {
     position: static;
+    height: 400px;
   }
   
   .detail-info h1 {
@@ -169,5 +226,16 @@
   
   .dimensions-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .model-viewer-container {
+    height: 300px;
+  }
+  
+  .ar-button {
+    font-size: 0.875rem;
+    padding: 10px 20px;
   }
 }

@@ -32,15 +32,6 @@ function FurnitureDetail() {
     }
   };
 
-  const handleViewInAR = () => {
-    navigate(`/ar/${id}`, { 
-      state: { 
-        furniture,
-        color: selectedColor 
-      } 
-    });
-  };
-
   if (loading) {
     return (
       <div className="container">
@@ -73,19 +64,50 @@ function FurnitureDetail() {
         </button>
 
         <div className="detail-container">
-          <div className="detail-image">
-            <img 
-              src={furniture.thumbnail_url} 
+          {/* 3D Model Viewer — replaces static image */}
+          <div className="model-viewer-container">
+            <model-viewer
+              src={furniture.model_url}
               alt={furniture.name}
-              onError={(e) => {
-                e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="600" height="600"%3E%3Crect fill="%23ddd" width="600" height="600"/%3E%3Ctext fill="%23999" x="50%25" y="50%25" text-anchor="middle" dy=".3em"%3ENo Image%3C/text%3E%3C/svg%3E';
+              ar
+              ar-modes="webxr scene-viewer quick-look"
+              ar-placement="floor"
+              camera-controls
+              touch-action="pan-y"
+              auto-rotate
+              shadow-intensity="1"
+              shadow-softness="1"
+              environment-image="neutral"
+              exposure="1"
+              style={{
+                width: '100%',
+                height: '100%',
+                backgroundColor: '#f0f0f0',
+                borderRadius: 'var(--radius-lg)',
               }}
-            />
+            >
+              {/* AR button — shows automatically on supported devices */}
+              <button
+                slot="ar-button"
+                className="ar-button"
+              >
+                📱 View in Your Room
+              </button>
+
+              {/* Loading progress bar */}
+              <div className="model-progress-bar" slot="progress-bar">
+                <div className="update-bar"></div>
+              </div>
+
+              <div id="ar-prompt" slot="ar-prompt">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5' fill='none' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E" alt="" />
+              </div>
+            </model-viewer>
           </div>
 
           <div className="detail-info">
             <h1>{furniture.name}</h1>
-            
+
             <div className="meta-info">
               <span className="category">{furniture.category}</span>
               <span className="style">{furniture.style}</span>
@@ -133,11 +155,11 @@ function FurnitureDetail() {
             )}
 
             <div className="actions">
-              <button 
-                onClick={handleViewInAR}
+              <button
+                onClick={() => navigate(`/ar/${id}`, { state: { furniture, color: selectedColor } })}
                 className="btn btn-primary btn-large"
               >
-                View in AR
+                🔍 Full Screen 3D View
               </button>
             </div>
 

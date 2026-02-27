@@ -1,0 +1,552 @@
+[
+    {
+        "id": "bed_001",
+        "name": "Classic Wooden Bed",
+        "category": "bedroom",
+        "style": "traditional",
+        "model_path": "bedroom/bed1.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#8B4513",
+            "#D2691E",
+            "#F5DEB3"
+        ],
+        "dimensions": {
+            "width": 2.0,
+            "depth": 1.8,
+            "height": 1.2
+        },
+        "description": "Elegant wooden bed with a classic design, perfect for traditional bedrooms.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "wooden",
+            "traditional"
+        ]
+    },
+    {
+        "id": "bed_002",
+        "name": "Modern Platform Bed",
+        "category": "bedroom",
+        "style": "modern",
+        "model_path": "bedroom/bed2.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#2C2C2C",
+            "#808080",
+            "#FFFFFF"
+        ],
+        "dimensions": {
+            "width": 2.0,
+            "depth": 1.8,
+            "height": 0.9
+        },
+        "description": "Sleek modern platform bed with clean lines and minimalist design.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "modern",
+            "platform"
+        ]
+    },
+    {
+        "id": "bed_003",
+        "name": "Contemporary Bed Frame",
+        "category": "bedroom",
+        "style": "modern",
+        "model_path": "bedroom/bed3.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#FFFFFF",
+            "#D3D3D3",
+            "#4A4A4A"
+        ],
+        "dimensions": {
+            "width": 2.0,
+            "depth": 1.8,
+            "height": 1.0
+        },
+        "description": "Contemporary bed frame with upholstered headboard.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "contemporary",
+            "upholstered"
+        ]
+    },
+    {
+        "id": "bed_004",
+        "name": "Rustic King Bed",
+        "category": "bedroom",
+        "style": "traditional",
+        "model_path": "bedroom/bed4.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#6B3A2A",
+            "#8B6914",
+            "#C4A35A"
+        ],
+        "dimensions": {
+            "width": 2.2,
+            "depth": 2.0,
+            "height": 1.3
+        },
+        "description": "Rustic king-size bed with natural wood finish.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "rustic",
+            "king"
+        ]
+    },
+    {
+        "id": "bed_005",
+        "name": "Minimalist Low Bed",
+        "category": "bedroom",
+        "style": "minimal",
+        "model_path": "bedroom/bed5.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#FFFFFF",
+            "#F5F5DC",
+            "#000000"
+        ],
+        "dimensions": {
+            "width": 1.8,
+            "depth": 2.0,
+            "height": 0.5
+        },
+        "description": "Ultra-low minimalist bed for modern spaces.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "minimal",
+            "low-profile"
+        ]
+    },
+    {
+        "id": "bed_006",
+        "name": "Canopy Bed Frame",
+        "category": "bedroom",
+        "style": "traditional",
+        "model_path": "bedroom/bed6.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#1C1C1C",
+            "#B87333",
+            "#FFFFFF"
+        ],
+        "dimensions": {
+            "width": 2.0,
+            "depth": 2.2,
+            "height": 2.0
+        },
+        "description": "Elegant canopy bed frame for statement bedrooms.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "canopy",
+            "elegant"
+        ]
+    },
+    {
+        "id": "bed_007",
+        "name": "Scandinavian Bed",
+        "category": "bedroom",
+        "style": "scandinavian",
+        "model_path": "bedroom/bed7.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#F5F5DC",
+            "#FFFFFF",
+            "#DEB887"
+        ],
+        "dimensions": {
+            "width": 1.8,
+            "depth": 2.0,
+            "height": 0.8
+        },
+        "description": "Light Scandinavian bed with natural materials.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "scandinavian",
+            "light"
+        ]
+    },
+    {
+        "id": "bed_008",
+        "name": "Industrial Bed Frame",
+        "category": "bedroom",
+        "style": "industrial",
+        "model_path": "bedroom/bed8.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#2F2F2F",
+            "#696969",
+            "#8B8682"
+        ],
+        "dimensions": {
+            "width": 2.0,
+            "depth": 1.8,
+            "height": 1.1
+        },
+        "description": "Raw industrial-style bed with metal accents.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "industrial",
+            "metal"
+        ]
+    },
+    {
+        "id": "bed_009",
+        "name": "Luxury Upholstered Bed",
+        "category": "bedroom",
+        "style": "modern",
+        "model_path": "bedroom/bed9.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#4B0082",
+            "#191970",
+            "#808080"
+        ],
+        "dimensions": {
+            "width": 2.2,
+            "depth": 2.0,
+            "height": 1.4
+        },
+        "description": "Luxurious fully upholstered bed with tufted headboard.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "luxury",
+            "upholstered"
+        ]
+    },
+    {
+        "id": "bed_010",
+        "name": "Space-Saving Murphy Bed",
+        "category": "bedroom",
+        "style": "modern",
+        "model_path": "bedroom/bed10.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#FFFFFF",
+            "#D3D3D3",
+            "#808080"
+        ],
+        "dimensions": {
+            "width": 1.5,
+            "depth": 0.4,
+            "height": 2.0
+        },
+        "description": "Smart murphy bed that folds into the wall.",
+        "tags": [
+            "bed",
+            "bedroom",
+            "murphy",
+            "space-saving"
+        ]
+    },
+    {
+        "id": "chair_001",
+        "name": "Modern Accent Chair",
+        "category": "living",
+        "style": "modern",
+        "model_path": "living/singlechair/chair1.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#FF6347",
+            "#4682B4",
+            "#808080"
+        ],
+        "dimensions": {
+            "width": 0.7,
+            "depth": 0.7,
+            "height": 0.85
+        },
+        "description": "Stylish accent chair for modern living rooms.",
+        "tags": [
+            "chair",
+            "seating",
+            "modern",
+            "accent"
+        ]
+    },
+    {
+        "id": "chair_002",
+        "name": "Scandinavian Lounge Chair",
+        "category": "living",
+        "style": "scandinavian",
+        "model_path": "living/singlechair/chair2.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#F5F5DC",
+            "#DEB887",
+            "#FFFFFF"
+        ],
+        "dimensions": {
+            "width": 0.75,
+            "depth": 0.8,
+            "height": 0.9
+        },
+        "description": "Cozy Scandinavian lounge chair with wooden legs.",
+        "tags": [
+            "chair",
+            "seating",
+            "scandinavian",
+            "lounge"
+        ]
+    },
+    {
+        "id": "chair_003",
+        "name": "Minimalist Dining Chair",
+        "category": "living",
+        "style": "minimal",
+        "model_path": "living/singlechair/chair3.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#FFFFFF",
+            "#000000",
+            "#808080"
+        ],
+        "dimensions": {
+            "width": 0.5,
+            "depth": 0.55,
+            "height": 0.8
+        },
+        "description": "Clean minimalist chair suitable for dining or desk use.",
+        "tags": [
+            "chair",
+            "seating",
+            "minimal",
+            "dining"
+        ]
+    },
+    {
+        "id": "chair_004",
+        "name": "Velvet Armchair",
+        "category": "living",
+        "style": "traditional",
+        "model_path": "living/singlechair/chair4.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#006400",
+            "#800020",
+            "#191970"
+        ],
+        "dimensions": {
+            "width": 0.8,
+            "depth": 0.85,
+            "height": 0.95
+        },
+        "description": "Luxurious velvet armchair with classic silhouette.",
+        "tags": [
+            "chair",
+            "seating",
+            "velvet",
+            "armchair"
+        ]
+    },
+    {
+        "id": "chair_005",
+        "name": "Ergonomic Office Chair",
+        "category": "living",
+        "style": "modern",
+        "model_path": "living/singlechair/chair5.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#2C2C2C",
+            "#1C1C1C",
+            "#4169E1"
+        ],
+        "dimensions": {
+            "width": 0.65,
+            "depth": 0.65,
+            "height": 1.1
+        },
+        "description": "Ergonomic chair perfect for home office setups.",
+        "tags": [
+            "chair",
+            "seating",
+            "office",
+            "ergonomic"
+        ]
+    },
+    {
+        "id": "chair_006",
+        "name": "Rattan Accent Chair",
+        "category": "living",
+        "style": "scandinavian",
+        "model_path": "living/singlechair/chair6.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#DEB887",
+            "#D2B48C",
+            "#F5DEB3"
+        ],
+        "dimensions": {
+            "width": 0.75,
+            "depth": 0.75,
+            "height": 0.85
+        },
+        "description": "Natural rattan chair adding warmth to any room.",
+        "tags": [
+            "chair",
+            "seating",
+            "rattan",
+            "natural"
+        ]
+    },
+    {
+        "id": "chair_007",
+        "name": "Mid-Century Modern Chair",
+        "category": "living",
+        "style": "modern",
+        "model_path": "living/singlechair/chair7.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#CD853F",
+            "#8B4513",
+            "#FFD700"
+        ],
+        "dimensions": {
+            "width": 0.7,
+            "depth": 0.7,
+            "height": 0.8
+        },
+        "description": "Iconic mid-century modern chair with tapered legs.",
+        "tags": [
+            "chair",
+            "seating",
+            "mid-century",
+            "retro"
+        ]
+    },
+    {
+        "id": "sofa_001",
+        "name": "Modern Single Seater Sofa",
+        "category": "living",
+        "style": "modern",
+        "model_path": "living/sofa/singleSeater/sofa1.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#808080",
+            "#2C2C2C",
+            "#FFFFFF"
+        ],
+        "dimensions": {
+            "width": 1.0,
+            "depth": 0.9,
+            "height": 0.8
+        },
+        "description": "Compact modern sofa perfect for small living spaces.",
+        "tags": [
+            "sofa",
+            "seating",
+            "modern",
+            "single-seater"
+        ]
+    },
+    {
+        "id": "sofa_002",
+        "name": "Minimalist Club Sofa",
+        "category": "living",
+        "style": "minimal",
+        "model_path": "living/sofa/singleSeater/sofa2.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#F5F5DC",
+            "#D3D3D3",
+            "#000000"
+        ],
+        "dimensions": {
+            "width": 1.0,
+            "depth": 0.85,
+            "height": 0.75
+        },
+        "description": "Clean-lined club sofa with minimalist aesthetic.",
+        "tags": [
+            "sofa",
+            "seating",
+            "minimal",
+            "club"
+        ]
+    },
+    {
+        "id": "sofa_003",
+        "name": "Tufted Lounge Sofa",
+        "category": "living",
+        "style": "traditional",
+        "model_path": "living/sofa/singleSeater/sofa3.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#800020",
+            "#006400",
+            "#191970"
+        ],
+        "dimensions": {
+            "width": 1.1,
+            "depth": 0.9,
+            "height": 0.85
+        },
+        "description": "Classic tufted sofa with a refined, traditional look.",
+        "tags": [
+            "sofa",
+            "seating",
+            "traditional",
+            "tufted"
+        ]
+    },
+    {
+        "id": "sofa_004",
+        "name": "Contemporary Accent Sofa",
+        "category": "living",
+        "style": "modern",
+        "model_path": "living/sofa/singleSeater/sofa4.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#FF6347",
+            "#4682B4",
+            "#FFD700"
+        ],
+        "dimensions": {
+            "width": 1.0,
+            "depth": 0.85,
+            "height": 0.8
+        },
+        "description": "Bold contemporary sofa as a room accent piece.",
+        "tags": [
+            "sofa",
+            "seating",
+            "contemporary",
+            "accent"
+        ]
+    },
+    {
+        "id": "sofa_005",
+        "name": "Scandinavian Comfort Sofa",
+        "category": "living",
+        "style": "scandinavian",
+        "model_path": "living/sofa/singleSeater/sofa5.glb",
+        "thumbnail_url": "",
+        "available_colors": [
+            "#F5F5DC",
+            "#DEB887",
+            "#FFFFFF"
+        ],
+        "dimensions": {
+            "width": 1.0,
+            "depth": 0.9,
+            "height": 0.78
+        },
+        "description": "Cozy Scandinavian sofa with soft cushioning and wooden frame.",
+        "tags": [
+            "sofa",
+            "seating",
+            "scandinavian",
+            "comfort"
+        ]
+    }
+]

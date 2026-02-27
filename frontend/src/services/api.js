@@ -2,7 +2,7 @@
  * API Configuration and Service Layer
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || window.location.origin;
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
 
 class APIService {
   constructor(baseURL) {
@@ -11,7 +11,7 @@ class APIService {
 
   async request(endpoint, options = {}) {
     const url = `${this.baseURL}${endpoint}`;
-    
+
     try {
       const response = await fetch(url, {
         ...options,
@@ -35,19 +35,22 @@ class APIService {
   // Furniture endpoints
   async getFurnitureList(filters = {}) {
     const params = new URLSearchParams(filters);
-    return this.request(`/api/furniture?${params}`);
+    const response = await this.request(`/api/furniture?${params}`);
+    return response.data || response;
   }
 
   async getFurnitureById(id) {
-    return this.request(`/api/furniture/${id}`);
+    const response = await this.request(`/api/furniture/${id}`);
+    return response.data || response;
   }
 
   async getFurnitureBatch(ids) {
-    return this.request('/api/furniture/batch', {
+    const response = await this.request('/api/furniture/batch', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ids }),
     });
+    return response.data || response;
   }
 
   // AI endpoints
@@ -64,7 +67,7 @@ class APIService {
   async redesignRoom(imageFile, preferences = {}) {
     const formData = new FormData();
     formData.append('image', imageFile);
-    
+
     Object.entries(preferences).forEach(([key, value]) => {
       formData.append(key, value);
     });
