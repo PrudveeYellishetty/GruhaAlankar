@@ -3,7 +3,7 @@ from flask import Flask, send_from_directory
 from flask_cors import CORS
 from config.settings import Config
 from services.data_service import DataService
-from routes import furniture_bp, ai_bp, assets_bp
+from routes import furniture_bp, ai_bp, assets_bp, room_analysis_bp
 import logging
 import os
 
@@ -32,8 +32,9 @@ def create_app():
 
     # Register API blueprints
     app.register_blueprint(furniture_bp)
-    app.register_blueprint(ai_bp)
+    # app.register_blueprint(ai_bp)  # Disabled - using room_analysis_bp with Gemini instead
     app.register_blueprint(assets_bp)
+    app.register_blueprint(room_analysis_bp, url_prefix='/api')
 
     # Health check
     @app.route('/api/health')

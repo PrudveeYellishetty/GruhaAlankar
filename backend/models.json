@@ -5,14 +5,14 @@
         "category": "bedroom",
         "style": "traditional",
         "model_path": "bedroom/bed1.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_001.png",
         "available_colors": [
             "#8B4513",
             "#D2691E",
             "#F5DEB3"
         ],
         "dimensions": {
-            "width": 2.0,
+            "width": 2,
             "depth": 1.8,
             "height": 1.2
         },
@@ -30,14 +30,14 @@
         "category": "bedroom",
         "style": "modern",
         "model_path": "bedroom/bed2.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_002.png",
         "available_colors": [
             "#2C2C2C",
             "#808080",
             "#FFFFFF"
         ],
         "dimensions": {
-            "width": 2.0,
+            "width": 2,
             "depth": 1.8,
             "height": 0.9
         },
@@ -55,16 +55,16 @@
         "category": "bedroom",
         "style": "modern",
         "model_path": "bedroom/bed3.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_003.png",
         "available_colors": [
             "#FFFFFF",
             "#D3D3D3",
             "#4A4A4A"
         ],
         "dimensions": {
-            "width": 2.0,
+            "width": 2,
             "depth": 1.8,
-            "height": 1.0
+            "height": 1
         },
         "description": "Contemporary bed frame with upholstered headboard.",
         "tags": [
@@ -80,7 +80,7 @@
         "category": "bedroom",
         "style": "traditional",
         "model_path": "bedroom/bed4.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_004.png",
         "available_colors": [
             "#6B3A2A",
             "#8B6914",
@@ -88,7 +88,7 @@
         ],
         "dimensions": {
             "width": 2.2,
-            "depth": 2.0,
+            "depth": 2,
             "height": 1.3
         },
         "description": "Rustic king-size bed with natural wood finish.",
@@ -105,7 +105,7 @@
         "category": "bedroom",
         "style": "minimal",
         "model_path": "bedroom/bed5.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_005.png",
         "available_colors": [
             "#FFFFFF",
             "#F5F5DC",
@@ -113,7 +113,7 @@
         ],
         "dimensions": {
             "width": 1.8,
-            "depth": 2.0,
+            "depth": 2,
             "height": 0.5
         },
         "description": "Ultra-low minimalist bed for modern spaces.",
@@ -130,16 +130,16 @@
         "category": "bedroom",
         "style": "traditional",
         "model_path": "bedroom/bed6.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_006.png",
         "available_colors": [
             "#1C1C1C",
             "#B87333",
             "#FFFFFF"
         ],
         "dimensions": {
-            "width": 2.0,
+            "width": 2,
             "depth": 2.2,
-            "height": 2.0
+            "height": 2
         },
         "description": "Elegant canopy bed frame for statement bedrooms.",
         "tags": [
@@ -155,7 +155,7 @@
         "category": "bedroom",
         "style": "scandinavian",
         "model_path": "bedroom/bed7.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_007.png",
         "available_colors": [
             "#F5F5DC",
             "#FFFFFF",
@@ -163,7 +163,7 @@
         ],
         "dimensions": {
             "width": 1.8,
-            "depth": 2.0,
+            "depth": 2,
             "height": 0.8
         },
         "description": "Light Scandinavian bed with natural materials.",
@@ -180,14 +180,14 @@
         "category": "bedroom",
         "style": "industrial",
         "model_path": "bedroom/bed8.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_008.png",
         "available_colors": [
             "#2F2F2F",
             "#696969",
             "#8B8682"
         ],
         "dimensions": {
-            "width": 2.0,
+            "width": 2,
             "depth": 1.8,
             "height": 1.1
         },
@@ -205,7 +205,7 @@
         "category": "bedroom",
         "style": "modern",
         "model_path": "bedroom/bed9.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_009.png",
         "available_colors": [
             "#4B0082",
             "#191970",
@@ -213,7 +213,7 @@
         ],
         "dimensions": {
             "width": 2.2,
-            "depth": 2.0,
+            "depth": 2,
             "height": 1.4
         },
         "description": "Luxurious fully upholstered bed with tufted headboard.",
@@ -230,7 +230,7 @@
         "category": "bedroom",
         "style": "modern",
         "model_path": "bedroom/bed10.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/bed_010.png",
         "available_colors": [
             "#FFFFFF",
             "#D3D3D3",
@@ -239,7 +239,7 @@
         "dimensions": {
             "width": 1.5,
             "depth": 0.4,
-            "height": 2.0
+            "height": 2
         },
         "description": "Smart murphy bed that folds into the wall.",
         "tags": [
@@ -255,7 +255,7 @@
         "category": "living",
         "style": "modern",
         "model_path": "living/singlechair/chair1.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_001.png",
         "available_colors": [
             "#FF6347",
             "#4682B4",
@@ -280,7 +280,7 @@
         "category": "living",
         "style": "scandinavian",
         "model_path": "living/singlechair/chair2.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_002.png",
         "available_colors": [
             "#F5F5DC",
             "#DEB887",
@@ -305,7 +305,7 @@
         "category": "living",
         "style": "minimal",
         "model_path": "living/singlechair/chair3.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_003.png",
         "available_colors": [
             "#FFFFFF",
             "#000000",
@@ -330,7 +330,7 @@
         "category": "living",
         "style": "traditional",
         "model_path": "living/singlechair/chair4.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_004.png",
         "available_colors": [
             "#006400",
             "#800020",
@@ -355,7 +355,7 @@
         "category": "living",
         "style": "modern",
         "model_path": "living/singlechair/chair5.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_005.png",
         "available_colors": [
             "#2C2C2C",
             "#1C1C1C",
@@ -380,7 +380,7 @@
         "category": "living",
         "style": "scandinavian",
         "model_path": "living/singlechair/chair6.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_006.png",
         "available_colors": [
             "#DEB887",
             "#D2B48C",
@@ -405,7 +405,7 @@
         "category": "living",
         "style": "modern",
         "model_path": "living/singlechair/chair7.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/chair_007.png",
         "available_colors": [
             "#CD853F",
             "#8B4513",
@@ -430,14 +430,14 @@
         "category": "living",
         "style": "modern",
         "model_path": "living/sofa/singleSeater/sofa1.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/sofa_001.png",
         "available_colors": [
             "#808080",
             "#2C2C2C",
             "#FFFFFF"
         ],
         "dimensions": {
-            "width": 1.0,
+            "width": 1,
             "depth": 0.9,
             "height": 0.8
         },
@@ -455,14 +455,14 @@
         "category": "living",
         "style": "minimal",
         "model_path": "living/sofa/singleSeater/sofa2.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/sofa_002.png",
         "available_colors": [
             "#F5F5DC",
             "#D3D3D3",
             "#000000"
         ],
         "dimensions": {
-            "width": 1.0,
+            "width": 1,
             "depth": 0.85,
             "height": 0.75
         },
@@ -480,7 +480,7 @@
         "category": "living",
         "style": "traditional",
         "model_path": "living/sofa/singleSeater/sofa3.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/sofa_003.png",
         "available_colors": [
             "#800020",
             "#006400",
@@ -505,14 +505,14 @@
         "category": "living",
         "style": "modern",
         "model_path": "living/sofa/singleSeater/sofa4.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/sofa_004.png",
         "available_colors": [
             "#FF6347",
             "#4682B4",
             "#FFD700"
         ],
         "dimensions": {
-            "width": 1.0,
+            "width": 1,
             "depth": 0.85,
             "height": 0.8
         },
@@ -530,14 +530,14 @@
         "category": "living",
         "style": "scandinavian",
         "model_path": "living/sofa/singleSeater/sofa5.glb",
-        "thumbnail_url": "",
+        "thumbnail_url": "/static/thumbnails/sofa_005.png",
         "available_colors": [
             "#F5F5DC",
             "#DEB887",
             "#FFFFFF"
         ],
         "dimensions": {
-            "width": 1.0,
+            "width": 1,
             "depth": 0.9,
             "height": 0.78
         },
